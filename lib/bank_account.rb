@@ -27,12 +27,12 @@ class BankAccount
   end
 
   def valid?
+    binding.pry 
     if ((status == 'open') && (balance > 0))
       return true 
     else 
       return false 
     end 
-    binding.pry 
   end
 
 def account_hash
