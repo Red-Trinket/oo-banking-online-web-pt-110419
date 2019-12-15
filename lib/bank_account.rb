@@ -23,7 +23,7 @@ class BankAccount
   end
 
   def balance=(balance)
-    @balance 
+    @balance = balance
   end
 
   def valid?
