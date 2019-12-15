@@ -21,6 +21,10 @@ class BankAccount
   def status=(status)
     @status
   end
+  
+  def balance 
+    @balance 
+  end 
 
   def balance=(balance)
     @balance = balance
