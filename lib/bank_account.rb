@@ -20,8 +20,8 @@ class BankAccount
     @status
   end
 
-  def balance
-    @balance = balance 
+  def balance=(balance)
+    @balance 
   end
 
   def valid?
