@@ -15,16 +15,12 @@ class BankAccount
   end
 
   def display_balance
-    puts "Your balance is $#{@balance}."
+    puts "Your balance is $#{self.balance}."
   end
 
   def status=(status)
     @status
   end
-  
-  def balance 
-    @balance 
-  end 
 
   def balance=(balance)
     @balance = balance
