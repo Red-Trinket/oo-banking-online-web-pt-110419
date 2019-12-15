@@ -26,9 +26,9 @@ class BankAccount
 
   def valid?
     if (!!status == 'open') && (!!balance > 0)
-      return false  
-    else 
       return true 
+    else 
+      return false 
     end 
   end
 
