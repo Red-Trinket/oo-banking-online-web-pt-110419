@@ -19,7 +19,7 @@ class BankAccount
   end
 
   def status=(status)
-    @status
+    @status = status 
   end
 
   def balance=(balance)
