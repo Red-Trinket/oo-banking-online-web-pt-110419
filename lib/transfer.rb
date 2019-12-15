@@ -23,7 +23,7 @@ class Transfer
         return "Transaction rejected. Please check your account balance."
       end
     else 
-      return "rejected"
+      return "Transaction rejected. Please check your account balance."
     end 
   end
 
