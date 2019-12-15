@@ -1,3 +1,5 @@
+require 'pry'
+
 class BankAccount
   attr_reader :name
   attr_accessor :balance, :status, :account_hash
@@ -30,6 +32,7 @@ class BankAccount
     else 
       return false 
     end 
+    binding.pry 
   end
 
 def account_hash
